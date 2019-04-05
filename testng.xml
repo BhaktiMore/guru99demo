@@ -11,5 +11,5 @@
       <class name="com.medo.testcases.TC_EditCustomer_VerifyCity_006"/>
     </classes>
   </test> <!-- Test -->
-</suite> <!-- Suite --> <!-- Testng -->
+</suite> <!-- Suite -->
  

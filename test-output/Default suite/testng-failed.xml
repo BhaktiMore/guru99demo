@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="com.medo.testcases.TC_EditCustomer_VerifyCusId_005"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.medo.testcases.TC_EditCustomer_VerifyCusId_005">
+        <methods>
+          <include name="edit_numeric"/>
+          <include name="edit_splchar"/>
+          <include name="edit_blank"/>
+          <include name="edit_valid"/>
+        </methods>
+      </class> <!-- com.medo.testcases.TC_EditCustomer_VerifyCusId_005 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

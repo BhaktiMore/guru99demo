@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Medoplus_Demo1]">
+  <parameter name="browser" value="chrome"/>
+  <test name="Test1">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.medo.testcases.TC_EditCustomer_VerifyCity_006"/>
+    </classes>
+  </test> <!-- Test1 -->
+</suite> <!-- Failed suite [Medoplus_Demo1] -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Medoplus_Demo1">
+<!-- <listeners> 
+<listener class-name="com.medo.utilities.Reporting"></listener>
+ </listeners> -->
+  <test name="Test1">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+   <!--  <class name="com.medo.utilities.ReadExcel"/> -->
+      <class name="com.medo.testcases.TC_EditCustomer_VerifyCity_006"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+ 
